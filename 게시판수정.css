@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    font-family: 'KOTRAHOPE';
+    line-height: 1.5em;
+    font-weight: 400;
+}
+.noticeLogo .textFix{
+    margin-top: 70px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.noticeLogo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+.mainfixbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    margin-bottom: 40px;
+    border-top: 1px solid rgb(250, 236, 220);
+    color: #333333;
+}
+.cntt_cf1{
+    float: left;
+    width: 100px;
+    margin-top: 20px;
+}
+.cntt_cf2{
+    margin-top: 20px;
+    float: left;
+}
+.cntt_cf2 input{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+}
+.cntt_cf3{
+    border-top: 1px solid rgb(250, 236, 220);
+    font-weight: 700;
+    margin-top: 10px;
+}
+.bottom_BTN{
+    text-align: center;
+}
+.textzone{
+    width: 600px;
+    height: 150px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+.upload-name{
+    width: 300px;
+    height: 20px;
+    
+}
+.findfile{
+    width: 200px;
+    font-size: small;
+}
+.fileText1, .fileText3{
+    color: rgb(10, 70, 94);
+    font-size: 17px;
+}
+.fileText2{
+    font-size: 17px;
+    color: rgb(194, 56, 56);
+}
+.bottom_BTN .clno, .clok{
+    background-color: rgb(250, 236, 220);
+  border: 1px solid burlywood;
+  width: 60px;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 6px;
+  margin-right: 6px;
+  cursor: pointer;
+  font-family: 'KOTRAHOPE';
+  font-size: 20px;
+}
+.bottom_BTN .clno:hover{
+    background-color: burlywood;
+    transition: 0.4s;
+}
+.bottom_BTN .clok:hover{
+    background-color: burlywood;
+    transition: 0.4s;
+}
+
+
